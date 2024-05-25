@@ -1,0 +1,229 @@
+body, html {
+    height: 95%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+
+body.theme1{
+  background-color:  hsl(222, 26%, 31%);
+  color: white;
+}
+.theme1 .input-card {
+  font-size: 40px;
+  height: calc(1.5em + .75rem + 2px);
+  width: 100%; 
+  border-radius: 1px;
+  background-color: hsl(224, 36%, 15%);
+  color:white;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+.theme1 .button-row {
+    display: flex;
+    gap: 0.5rem; /* Adjust the gap as needed */
+    margin-bottom: 0.5rem;
+   
+  }
+  .theme1 .card-body{
+    background-color: hsl(223, 31%, 20%);
+      border: none;
+  }
+  
+  
+  .theme1 .btn-primary {
+    flex: 1;
+    border: none;
+    background-color: hsl(30, 25%, 89%);
+    color:hsl(221, 14%, 31%);
+    box-shadow: 0 2px 2px hsl(28, 16%, 65%) /* This makes the buttons take equal space, remove this if not needed */
+  }
+
+  .theme1 .btn-primary:hover{
+    background-color: hsl(30, 25%, 89%);
+    color:hsl(221, 14%, 31%);
+  }
+  .theme1 .functionbtn{
+    background-color:  hsl(225, 21%, 49%);
+    color: white;
+    box-shadow: 0 2px 2px hsl(224, 28%, 35%)
+  }
+  .theme1 .functionbtn:hover{
+    background-color:  hsl(226, 11%, 56%);
+    color: white;
+  }
+
+  .theme1 .calculatebtn{
+    background-color:hsl(6, 63%, 50%);
+    box-shadow: 0 2px 2px hsl(6, 70%, 34%);
+    color: white;
+  }
+
+  .theme1 .calculatebtn:hover{
+    background-color:hsl(6, 53%, 55%);
+    color: white;
+  }
+
+body.theme2{
+  background-color:hsl(0, 0%, 90%);
+  color:  hsl(198, 20%, 13%);
+}
+.theme2 .input-card{
+  font-size: 40px;
+  height: calc(1.5em + .75rem + 2px);
+  width: 100%; 
+  border-radius: 1px;
+  background-color: hsl(0, 0%, 93%);
+  color:hsl(221, 14%, 31%);
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+.theme2 .button-row {
+  display: flex;
+  gap: 0.5rem; /* Adjust the gap as needed */
+  margin-bottom: 0.5rem;
+ 
+}
+.theme2 .card-body{
+  background-color:  hsl(0, 5%, 81%);
+}
+
+.theme2 .btn-primary {
+  flex: 1;
+  border: none;
+  background-color: hsl(45, 7%, 89%);
+  color:hsl(60, 10%, 19%);
+  box-shadow: 0 2px 2px  hsl(35, 11%, 61%) /* This makes the buttons take equal space, remove this if not needed */
+}
+
+.theme2.btn-primary:hover{
+  background-color:  hsl(45, 7%, 89%);
+  color:hsl(60, 10%, 19%);
+}
+.theme2 .functionbtn{
+  background-color:  hsl(185, 42%, 37%);
+  color: white;
+  box-shadow: 0 2px 2px hsl(185, 58%, 25%)
+}
+.theme2 .functionbtn:hover{
+  background-color:  hsl(226, 11%, 56%);
+  color: white;
+}
+
+.theme2 .calculatebtn{
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: 0 2px 2px hsl(25, 99%, 27%);
+  color: white;
+}
+
+.theme2 .calculatebtn:hover{
+  background-color:hsl(6, 53%, 55%);
+  color: white;
+}
+
+body.theme3{
+  background-color:  hsl(268, 75%, 9%);
+  color:hsl(52, 100%, 62%);
+}
+.theme3 .input-card{
+  font-size: 40px;
+  height: calc(1.5em + .75rem + 2px);
+  width: 100%; 
+  border-radius: 1px;
+  background-color: hsl(268, 71%, 12%);
+  color:hsl(52, 100%, 62%);
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+.theme3 .button-row {
+  display: flex;
+  gap: 0.5rem; /* Adjust the gap as needed */
+  margin-bottom: 0.5rem;
+ 
+}
+.theme3 .card-body{
+  background-color:  hsl(268, 71%, 12%);
+}
+
+.theme3 .btn-primary {
+  flex: 1;
+  border: none;
+  background-color:   hsl(268, 47%, 21%);
+  color:hsl(52, 100%, 62%);
+  box-shadow: 0 2px 2px   hsl(290, 70%, 36%); 
+}
+
+.theme3 .btn-primary:hover{
+  background-color:   hsl(268, 47%, 21%);
+  color:hsl(52, 100%, 62%);
+}
+.theme3 .functionbtn{
+  background-color: hsl(281, 89%, 26%);
+  color: white;
+  box-shadow: 0 2px 2px  hsl(285, 91%, 52%);
+}
+.theme3 .functionbtn:hover{
+  background-color:   hsl(282, 36%, 36%);
+  color: white;
+}
+
+.theme3 .calculatebtn{
+  background-color:  hsl(176, 100%, 44%);
+  box-shadow: 0 2px 2px hsl(177, 92%, 70%);
+  color: white;
+}
+
+.theme3 .calculatebtn:hover{
+  background-color: hsl(176, 51%, 67%);
+  color: white;
+}
+
+
+
+.toggle-container {
+  width: 60px;
+  height: 20px;
+
+}
+
+.toggle-container input[type="radio"] {
+  display: none;
+}
+
+.toggle-container label {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.toggle-container .toggle-switch {
+  width: 33.33%;
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+#option1:checked ~ .toggle-switch {
+  transform: translateX(0%);
+}
+
+#option2:checked ~ .toggle-switch {
+  transform: translateX(100%);
+}
+
+#option3:checked ~ .toggle-switch {
+  transform: translateX(200%);
+}
+
+.toggle-container input[type="radio"]:checked + label {
+  background-color: black;
+  background-color: #007bff;
+  border-radius: 30px;
+}
